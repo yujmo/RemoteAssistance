@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo 'echo "hello" ' > /root/.bash_profile
+sudo echo 'echo "hello" ' > /root/.bash_profile
 useradd -s /bin/bash -m monoid
 #echo "monoid"|passwd --stdin monoid
 echo monoid:monoid | chpasswd
