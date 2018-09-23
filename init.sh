@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "system test" > /root/test_`date +%Y-%m-%d-%H:%M:%S`.log
-echo 'nameserver 114.114.114.114' > /etc/resolv.conf
+mkdir /root/test/
+
 while true
 do
   ping -c 114.114.114.114
